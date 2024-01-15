@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
 body {
-    font-family: 'Lemon', sans-serif;
+    font-family: 'Cutive Mono', monospace;
     margin: 20px;
 }
 
@@ -10,10 +10,12 @@ h3{
 }
 
 #log{
+    padding: 5px;
     height: 300px;
     /*Si no se añade esta propiedad no se verá la barra de scroll y se saldría el texto de la caja*/
     overflow-y: auto;
     border: 1px solid #ccc;
+    
 
 }
 
@@ -29,4 +31,11 @@ button{
     border-radius: 5px;
     cursor: pointer;
     border: none;
+    background-color: #333;
+    color: #fff;
+
+}
+
+button:hover{
+    background-color: #555;
 }
