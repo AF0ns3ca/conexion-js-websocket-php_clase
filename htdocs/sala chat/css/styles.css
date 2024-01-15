@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+body {
+    font-family: 'Lemon', sans-serif;
+    margin: 20px;
+}
+
+h3{
+    color: #333;
+}
+
+#log{
+    height: 300px;
+    /*Si no se añade esta propiedad no se verá la barra de scroll y se saldría el texto de la caja*/
+    overflow-y: auto;
+    border: 1px solid #ccc;
+
+}
+
+input[type="textbox"]{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
